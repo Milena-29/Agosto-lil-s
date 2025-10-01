@@ -146,7 +146,13 @@ function mostrarFinal(codigo) {
     "-10": "Final Bom 5: Seguir orientação do 180.",
     "-11": "Final Ruim 6: Desligar o 180 e desistir."
   };
-  textoEl.innerHTML = finais[codigo] + "<br><br>Essa história é inspirada na vida real de Maria da Penha e de tantas outras mulheres. Agosto Lilás é o mês de dar voz, acolher e lutar contra a violência.<br><br>📞 Disque 180 - Central de Atendimento à Mulher";
+  textoEl.innerHTML = finais[codigo] +
+    "<br><br>Essa história é inspirada na vida real de Maria da Penha e de tantas outras mulheres. Agosto Lilás é o mês de dar voz, acolher e lutar contra a violência." +
+    "<br><br>📞 Disque 180 - Central de Atendimento à Mulher" +
+    "<br><br><b>QR Code do site:</b><br>" +
+    "<img src='https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://milena-29.github.io/Agosto-lil-s/' alt='QR Code para o site'>" +
+    "<br><br><b>QR Code do Canva:</b><br>" +
+    "<img src='https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.canva.com/design/DAG0c9rwxvk/YAYCURd5z_LoqmYAqvIyvg/edit' alt='QR Code do Canva'>";
   imgEl.style.display = "none";
   audioEl.pause();
   audioEl.style.display = "none";
