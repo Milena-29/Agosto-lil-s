@@ -151,7 +151,7 @@ function mostrarFinal(codigo) {
     "<br><br>📞 Disque 180 - Central de Atendimento à Mulher" +
     "<br><br><b>QR Code do site:</b><br>" +
     "<img src='https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://milena-29.github.io/Agosto-lil-s/' alt='QR Code para o site'>" +
-    "<br><br><b>QR Code do Canva:</b><br>" +
+    "<br><br><b>QR Code do Fluxograma:</b><br>" +
     "<img src='https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.canva.com/design/DAG0c9rwxvk/YAYCURd5z_LoqmYAqvIyvg/edit' alt='QR Code do Canva'>";
   imgEl.style.display = "none";
   audioEl.pause();
@@ -167,3 +167,4 @@ function tocarAudio() {
   const audio = document.getElementById('meuAudio');
   audio.play();
 }
+
