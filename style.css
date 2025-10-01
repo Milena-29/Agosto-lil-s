@@ -1,0 +1,87 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f0fa;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #8e24aa;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+#historia {
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+
+#imagem-capitulo {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+#texto-digitado {
+  font-size: 1.2rem;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  min-height: 150px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  text-align: left;
+}
+
+
+#botao-proximo {
+  margin-top: 2rem;
+  padding: 0.8rem 2rem;
+  background-color: #ab47bc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#botao-proximo:hover {
+  background-color: #6a1b9a;
+}
+
+
+audio {
+  margin-top: 1.5rem;
+  width: 100%;
+  max-width: 500px;
+}
